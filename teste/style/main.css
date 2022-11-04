@@ -1,0 +1,208 @@
+:root {
+    --vermelho: red;
+    --preto: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: var(--preto);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2 {
+    color: rgb(163, 23, 23);
+    text-shadow: rgb(233, 224, 224) 0.1em 0.1em 0.2em
+}
+
+
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-size: 40px;
+    font-family: Arial Black;
+    align-items: center;
+
+}
+
+header .guitarra-site {
+    height: 80px;
+    width: 80px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+
+}
+
+/* SHOW PRINCIPAL*/
+
+.show-principal {
+    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(99, 138, 7, 0.397) 100%), url("/img/iron-maidensenjutsu.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    font-size: 16px;
+    background-position-x: right;
+
+
+
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
+
+}
+
+.descricao {
+    margin-top: 5%;
+    margin-bottom: 50px;
+    margin-left: 20px;
+
+    font-size: 20px;
+    text-align: justify;
+}
+
+.titulo {
+    margin-top: 5%;
+
+    font-family: cursive;
+    color: rgba(251, 197, 10, 0.842);
+    margin-left: 20px;
+    font-size: 40px;
+    text-decoration-color: #fff;
+
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    margin-right: 15px;
+    font-size: 12px;
+    margin-bottom: 30px;
+
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.botao i {
+    padding-right: 5px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.show-principal .container {
+    width: 70%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+
+.carrosel-filmes {
+    margin-top: 10px;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    z-index: 2000;
+
+}
+
+.modal-content {
+
+    margin: 0 auto;
+    max-width: 900px;
+
+
+
+
+    margin-top: 3%;
+    background: rgba(55, 55, 58, 0.219);
+    padding: 5px;
+    box-shadow: 0 0 2px #fff;
+}
+
+.modal-header {
+    font-size: 18px;
+    font-family: cursive;
+    text-align: center;
+
+}
+
+.modal-body {
+    display: flex;
+
+
+}
+
+.modal-butons {
+    flex-direction: row;
+}
+
+
+.close-button {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    margin-right: 15px;
+    font-size: 12px;
+    margin-left: 85%;
+
+
+
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.close-button:hover {
+    background-color: white;
+    color: black;
+
+
+}

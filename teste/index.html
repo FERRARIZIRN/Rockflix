@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <!-- owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <title>Rockflix</title>
+</head>
+
+<body>
+
+
+
+    <header>
+
+        <div class="container">
+            <h2 class="logo">ROCKFLIX</h2>
+            <nav>
+
+
+                <a href="#INICIO">Inicio</a>
+                <a href=" #MUSICA">Especial Rock in Rio</a>
+                <a href="#DOCUMENTARIOS">Documentários</a>
+                <a href="#Filmes">Filmes</a>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <main id="INICIO">
+        <div class="show-principal" onmouseover="mouseOver()">
+            <div class="container">
+                <h2 class="titulo">IRON MAIDEN</h2>
+                <p class="descricao"> Com cinco décadas de existência, dezessete álbuns de estúdio, onze álbuns ao vivo,
+                    quatorze vídeos e
+                    diversos compactos, a banda veio a ser uma das mais bem sucedidas da história do heavy metal, tendo
+                    vendido mais de 100 milhões de álbuns mundialmente. Assista agora os videos da turne de lançamento
+                    do album senjutsu.</p>
+
+
+
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="openModal('main-modal-play')">
+                        <i class=" fa-solid fa-2x fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div id="main-modal-play" class="modal">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h1>Iron Maiden The Future Past Tour 2023</h1>
+                </div>
+
+                <div class="modal-body">
+                    <div id=" #video">
+                        <iframe src="/videos/Iron Maiden - The Future Past Tour 2023.mp4" width="900" height="315"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button class="close-button" onclick="closeModal('main-modal-play') " onclick="playPause()">
+                        Fechar</button>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+
+
+
+
+    <div id="MUSICA">
+        <h3 class="MUSICA">
+            ESPECIAL ROCK IN RIO
+        </h3>
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/editadas/metallica 1 .jpg" onclick="openModal('dv1-modal')" alt="">
+                </div>
+
+                <div class="item">
+                    <img class="box-filme" src="img/editadas/aerosmith 2.jpg" onclick="openModal('dv2-modal')" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/editadas/slipknot1.jpg" onclick="openModal('dv3-modal')" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/nightwish.jpg" onclick="openModal('dv4-modal')" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/editadas/EVANESCENCE.jpg" onclick="openModal('dv5-modal')" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/withesnake.jpg" onclick="openModal('dv6-modal')" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/SOAD.jpg" onclick="openModal('dv7-modal')" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/scorpions.jpg" onclick="openModal('dv8-modal')" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <!--modal metallica -->
+        <div id="dv1-modal" class="modal">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h1>metallica</h1>
+                </div>
+
+                <div class="modal-body">
+                    <div class="img-modal"><img src="img/editadas/metallica 1 .jpg" alt=""></div>
+
+                    <div class="text">
+                        <p>
+                            O show da noite de quinta (19/09/2013) foi uma performance superior à vista no Rock in
+                            Rio 2011, "mais legal do que dois anos atrás", nas palavras de Lars Ulrich. Foi a sexta
+                            passagem do quarteto californiano pelo Brasil.</p>
+                        <br><br>
+                        confira os albuns da banda no spotify e no canal official do youtube:
+                        <br><br>
+                        <div class="modal-butons">
+                            <button role="button" class="botao" onclick="window.open(ymetallica)">
+                                <i class="fa-solid fa-2x fa-video"></i>
+                                Youtube
+                            </button>
+                            <button role="button" class="botao" onclick="window.open(smetallica)">
+                                <i class="fa-solid fa-2x fa-music"></i>
+                                Spotify
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button class="close-button" onclick="closeModal('dv1-modal') "> Fechar</button>
+
+                </div>
+            </div>
+        </div>
+        <!--modalaerosmith-->
+
+        <div id="dv2-modal" class="modal">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h1>Aerosmith</h1>
+                </div>
+
+                <div class="modal-body">
+                    <div class="img-modal"><img src="img/editadas/aerosmith 2.jpg" alt=""></div>
+
+                    <div class="text">
+                        <p>
+                            Steven Tyler, vocalista da banda, mostrou que mesmo aos 69 anos de idade tem a voz
+                            praticamente intacta e não sofre com as corridas frequentes por todos os lados do palco. O
+                            guitarrista Joe Perry, aos 67, mandou bem nos seus riffs clássicos e improvisações e como
+                            sempre foi parte fundamental das jams do grupo, que alterna muito bem seu setlist. Com uma
+                            quantidade de hits que poderia muito bem arredondar um show inteiro, o Aerosmith prefere
+                            alternar os sucessos como “Crazy”, “Cryin’”, “Dream On” e “Walk This Way” com jams
+                            inspiradíssimas do blues/rock e covers de nomes como Fleetwood Mac e The Beatles, com uma
+                            versão acelerada de “Come Together”. Não há como negar: o primeiro dia da parte “Rock” do
+                            Rock In Rio foi encerrado em grande estilo com uma performance incrível de quem não apenas
+                            sabe o que está fazendo como não se contentou em se escorar nos sucessos.</p>
+                        <br><br>
+                        confira os albuns da banda no spotify e no canal official do youtube:
+                        <br><br>
+                        <div class="modal-butons">
+                            <button role="button" class="botao" onclick="window.open(aeroy)">
+                                <i class="fa-solid fa-2x fa-video"></i>
+                                Youtube
+                            </button>
+                            <button role="button" class="botao" onclick="window.open(aeros)">
+                                <i class="fa-solid fa-2x fa-music"></i>
+                                Spotify
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button class="close-button" onclick="closeModal('dv2-modal') "> Fechar</button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!--modal slipknot-->
+
+        <div id="dv3-modal" class="modal">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h1>Slipknot</h1>
+                </div>
+
+                <div class="modal-body">
+                    <div class="img-modal"><img src="img/editadas/slipknot1.jpg" alt=""></div>
+
+                    <div class="text">
+                        <p>
+                            Se o Rock in Rio tem cara de parque de diversões, o Slipknot é o Castelo do Terror
+                            ideal. O show desta sexta-feira (25) teve o mise-en-scène de horror de sempre - até uma
+                            chuva de papel picado, em momento "Carnapknot". O que faz diferença é que a música não é
+                            de brinquedo - continua boa. A banda de mascarados foi a única a ganhar totalmente a
+                            plateia nesta sexta.</p>
+                        <br><br>
+                        confira os albuns da banda no spotify e no canal official do youtube:
+                        <br><br>
+                        <div class="modal-butons">
+                            <button role="button" class="botao" onclick="window.open(slipy)">
+                                <i class="fa-solid fa-2x fa-video"></i>
+                                Youtube
+                            </button>
+                            <button role="button" class="botao" onclick="window.open(slips)">
+                                <i class="fa-solid fa-2x fa-music"></i>
+                                Spotify
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button class="close-button" onclick="closeModal('dv3-modal') "> Fechar</button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!--modal nightwish-->
+
+        <div id="dv4-modal" class="modal">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h1>Nightwish</h1>
+                </div>
+
+                <div class="modal-body">
+                    <div class="img-modal"><img src="img/nightwish.jpg" alt=""></div>
+
+                    <div class="text">
+                        <p>
+                            Os finlandeses do Nightwish trouxeram um tom épico na noite de sexta-feira (25) no Rock in
+                            Rio 2015. Banda querida dos brasileiros, graças também ao carisma das cantoras que já
+                            passaram no grupo (Floor Jensen, a atual desde 2013, substituiu Anette Olzon, que havia, por
+                            sua vez, substituído Tarja Turunen), o Nightwish tem o foco mais melódico, com visual gótico
+                            e uma propensão a transformar cada canção em uma fábula. Foi um show que o público fiel
+                            esperava, contando ainda com a participação de Tony Kakko, vocalista da banda Sonata
+                            Arctica..</p>
+                        <br><br>
+                        confira os albuns da banda no spotify e no canal official do youtube:
+                        <br><br>
+                        <div class="modal-butons">
+                            <button role="button" class="botao" onclick="window.open(nighty)">
+                                <i class="fa-solid fa-2x fa-video"></i>
+                                Youtube
+                            </button>
+                            <button role="button" class="botao" onclick="window.open(nights)">
+                                <i class="fa-solid fa-2x fa-music"></i>
+                                Spotify
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button class="close-button" onclick="closeModal('dv4-modal') "> Fechar</button>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <!--modal Eanescence-->
+
+        <div id="dv5-modal" class="modal">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h1>Evanescense</h1>
+                </div>
+
+                <div class="modal-body">
+                    <div class="img-modal"><img src="img/editadas/EVANESCENCE.jpg" alt=""></div>
+
+                    <div class="text">
+                        <p>
+                            Os Evanescence voltaram ao Rock in Rio-Lisboa, depois de terem tocado na edição de 2004 e
+                            atuado na do Rio de Janeiro em 2011. Amy Lee e Troy McLawhorn reconhecem que cresceram muito
+                            desde a sua primeira atuação na Belavista e garantem que não perderam o viço. "A nossa
+                            música ainda é muito pesada", salientam:“The Hunter”. Musicas 1) What you want 2) Going
+                            under 3) The other side 4) Weight of the world 5) Made of stone 6) My immortal 7) My heart
+                            is broken 8) Your star 9) Sick 10) The change 11) Sober 12) Imaginary 13) Bring me to my
+                            life</p>
+                        <br><br>
+                        confira os albuns da banda no spotify e no canal official do youtube:
+                        <br><br>
+                        <div class="modal-butons">
+                            <button role="button" class="botao" onclick="window.open(evay)">
+                                <i class="fa-solid fa-2x fa-video"></i>
+                                Youtube
+                            </button>
+                            <button role="button" class="botao" onclick="window.open(evas)">
+                                <i class="fa-solid fa-2x fa-music"></i>
+                                Spotify
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button class="close-button" onclick="closeModal('dv5-modal') "> Fechar</button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!--modal Whitesnake-->
+
+        <div id="dv6-modal" class="modal">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h1>Whitesnake</h1>
+                </div>
+
+                <div class="modal-body">
+                    <div class="img-modal"><img src="img/withesnake.jpg" alt=""></div>
+
+                    <div class="text">
+                        <p>
+                            British hard rock will invade the Sunset Stage. After 34 years, Whitesnake returns to the
+                            festival, this time for the promotion tour of their new album, “Flesh & Blood”. David
+                            Coverdale formed the group in 1978. Since then, the band has topped the charts several times
+                            and received countless awards and nominations. What the public will see in the City of Rock,
+                            September 28, promises to enter the history of Rock in Rio once again. Here “we” go again,
+                            Whitesnake!</p>
+                        <br><br>
+                        confira os albuns da banda no spotify e no canal official do youtube:
+                        <br><br>
+                        <div class="modal-butons">
+                            <button role="button" class="botao" onclick="window.open(whitey)">
+                                <i class="fa-solid fa-2x fa-video"></i>
+                                Youtube
+                            </button>
+                            <button role="button" class="botao" onclick="window.open(whites)">
+                                <i class="fa-solid fa-2x fa-music"></i>
+                                Spotify
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button class="close-button" onclick="closeModal('dv6-modal') "> Fechar</button>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--modal SOAD-->
+
+        <div id="dv7-modal" class="modal">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h1>Sistem Of a Down</h1>
+                </div>
+
+                <div class="modal-body">
+                    <div class="img-modal"><img src="img/SOAD.jpg" alt=""></div>
+
+                    <div class="text">
+                        <p>
+                            System of a Down at Cidade do Rock, Rio de Janeiro, Brazil on September 24, 2015. Setist:
+                            I-E-A-I-A-I-O / Suite-Pee (Incomplete) / Attack / Prison Song / Know / Aerials / Soldier
+                            Side - Intro / B.Y.O.B. / Soil / Darts / Radio/Video / Hypnotize / Temper / CUBErt / Needles
+                            / Deer Dance / Bounce / Suggestions / Psycho / Chop Suey! / Lonely Day / Question! / Lost in
+                            Hollywood / Vicinity of Obscenity / Forest / Cigaro / Toxicity (with Chino Moreno) / Sugar
+                        </p>
+                        <br><br>
+                        confira os albuns da banda no spotify e no canal official do youtube:
+                        <br><br>
+                        <div class="modal-butons">
+                            <button role="button" class="botao" onclick="window.open(sisy)">
+                                <i class="fa-solid fa-2x fa-video"></i>
+                                Youtube
+                            </button>
+                            <button role="button" class="botao" onclick="window.open(siss)">
+                                <i class="fa-solid fa-2x fa-music"></i>
+                                Spotify
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button class="close-button" onclick="closeModal('dv7-modal') "> Fechar</button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- modal scorpions-->
+
+        <div id="dv8-modal" class="modal">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h1>Scorpions</h1>
+                </div>
+
+                <div class="modal-body">
+                    <div class="img-modal"><img src="img/scorpions.jpg" alt=""></div>
+
+                    <div class="text">
+                        <p>
+                            System of a Down at Cidade do Rock, Rio de Janeiro, Brazil on September 24, 2015. Setist:
+                            I-E-A-I-A-I-O / Suite-Pee (Incomplete) / Attack / Prison Song / Know / Aerials / Soldier
+                            Side - Intro / B.Y.O.B. / Soil / Darts / Radio/Video / Hypnotize / Temper / CUBErt / Needles
+                            / Deer Dance / Bounce / Suggestions / Psycho / Chop Suey! / Lonely Day / Question! / Lost in
+                            Hollywood / Vicinity of Obscenity / Forest / Cigaro / Toxicity (with Chino Moreno) / Sugar
+                        </p>
+                        <br><br>
+                        confira os albuns da banda no spotify e no canal official do youtube:
+                        <br><br>
+                        <div class="modal-butons">
+                            <button role="button" class="botao" onclick="window.open(scorpy)">
+                                <i class="fa-solid fa-2x fa-video"></i>
+                                Youtube
+                            </button>
+                            <button role="button" class="botao" onclick="window.open(scorps)">
+                                <i class="fa-solid fa-2x fa-music"></i>
+                                Spotify
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <button class="close-button" onclick="closeModal('dv8-modal') "> Fechar</button>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div id="DOCUMENTARIOS">
+            <h3 class="DOCS">
+                DOCUMENTÁRIOS
+            </h3>
+        </div>
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/rock-in-rio.jpg" onclick="openModal('dv9-modal')" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/motley crue.jpg" onclick="openModal('dv10-modal')" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/some kind of monster.jpg " onclick="openModal('dv11-modal')" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/paralamas.jpg" onclick="openModal('dv12-modal')" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/keith.jpg" onclick="openModal('dv13-modal')" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/queen.jpg" onclick="openModal('dv14-modal')" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/iacanga.jpg" onclick="openModal('dv15-modal')" alt="">
+
+                </div>
+            </div>
+
+            <!-- modal rockinrio-->
+
+            <div id="dv9-modal" class="modal">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h1>Rock in Rio</h1>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="img-modal"><img src="img/rock-in-rio.jpg" alt=""></div>
+
+                        <div class="text">
+                            <p>
+                                Artistas que tiveram suas carreiras marcadas pelo Rock in Rio contam como um festival
+                                que parecia fadado ao ﻿fracasso se transformou no maior do mundo.
+                            </p>
+                            <br><br>
+                            Assista ao documentario completo:
+                            <br><br>
+                            <div class="modal-butons">
+                                <button role="button" class="botao" onclick="window.open(rockhis)">
+                                    <i class="fa-solid fa-2x fa-video"></i>
+                                    Assistir Agora
+                                </button>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button class="close-button" onclick="closeModal('dv9-modal') "> Fechar</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- motley crue-->
+
+            <div id="dv10-modal" class="modal">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h1>The Dirt</h1>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="img-modal"><img src="img/motley crue.jpg" alt=""></div>
+
+                        <div class="text">
+                            <p>
+                                Acompanhe a ascensão meteórica e os tombos homéricos do Mötley Crüe nessa biografia dos
+                                quatro desajustados de Los Angeles que conquistaram o topo do heavy metal.
+                            </p>
+                            <br><br>
+                            Assista ao documentario completo:
+                            <br><br>
+                            <div class="modal-butons">
+                                <button role="button" class="botao" onclick="window.open(dirty)">
+                                    <i class="fa-solid fa-2x fa-video"></i>
+                                    Assistir Agora
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button class="close-button" onclick="closeModal('dv10-modal') "> Fechar</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- modal some kind of monster-->
+
+            <div id="dv11-modal" class="modal">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h1>Metallica - Some Kind Of Moster</h1>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="img-modal"><img src="img/some kind of monster.jpg" alt=""></div>
+
+                        <div class="text">
+                            <p>O documentário se inicia em 2001, quando o Metallica vai para um estúdio em San Francisco
+                                gravar seu novo álbum. No início das filmagens o baixista Jason Newsted deixa a banda,
+                                após 14 anos. Como a dinâmica entre os demais membros não é das melhores, o empresário
+                                contrata um terapeuta para ajudá-los. Apesar do auxílio profissional, o vocalista James
+                                Hetfield continua se desentendendo com o baterista Lars Ulrich, com Hetfield se
+                                internando numa clínica para tratamento de alcoolismo. Ele volta um ano depois, e só
+                                então o Metallica consegue finalizar o novo álbum.
+                            </p>
+                            <br><br>
+                            Assista ao documentario completo::
+                            <br><br>
+                            <div class="modal-butons">
+                                <button role="button" class="botao" onclick="window.open(monster)">
+                                    <i class="fa-solid fa-2x fa-video"></i>
+                                    Assistir Agora
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button class="close-button" onclick="closeModal('dv11-modal') "> Fechar</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <!-- modal paralamas-->
+
+            <div id="dv12-modal" class="modal">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h1>Os Quatro Paralamas</h1>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="img-modal"><img src="img/paralamas.jpg" alt=""></div>
+
+                        <div class="text">
+                            <p>Dirigido por Roberto Berliner, que acompanha a banda desde o início no Circo Voador, em
+                                1983, este filme sobre música e amizade fala da relação dos três que sobem ao palco
+                                (Herbert, Bi e João), mas também de um quarto elemento, que aparece pouco na mídia, mas
+                                tem papel fundamental: José Fortes, o empresário. Em um papo na sala da casa de Bi
+                                Ribeiro, os quatro lembram a carreira, falam sobre sua amizade inabalável e tocam
+                                músicas que fazem parte dessa trajetória de quase 40 anos.
+                            </p>
+                            <br><br>
+                            Assista ao documentario completo:
+                            <br><br>
+                            <div class="modal-butons">
+                                <button role="button" class="botao" onclick="window.open(paralamas)">
+                                    <i class="fa-solid fa-2x fa-video"></i>
+                                    Assistir Agora
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button class="close-button" onclick="closeModal('dv12-modal') "> Fechar</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <!-- modal keith-->
+
+            <div id="dv13-modal" class="modal">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h1>Keith Richards - Under The Influence</h1>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="img-modal"><img src="img/keith.jpg" alt=""></div>
+
+                        <div class="text">
+                            <p>Dirigido pelo premiado cineasta Morgan Neville, o documentário tem a promessa de retratar
+                                o processo criativo de Keith como compõe e seu modo de tocar guitarra. Além disso
+                                contará com entrevistas, material do acervo pessoal e bastidores do novo álbum Crosseyed
+                                Heart .
+                            </p>
+                            <br><br>
+                            Assista ao documentario completo:
+                            <br><br>
+                            <div class="modal-butons">
+                                <button role="button" class="botao" onclick="window.open(keith)">
+                                    <i class="fa-solid fa-2x fa-video"></i>
+                                    Assistir Agora
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button class="close-button" onclick="closeModal('dv13-modal') "> Fechar</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <!-- queen-->
+
+            <div id="dv14-modal" class="modal">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h1>Queen- The Show Must Go On</h1>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="img-modal"><img src="img/queen.jpg" alt=""></div>
+
+                        <div class="text">
+                            <p>A documentary chronicling Queen and Lambert's incredible journey since they first shared
+                                the stage together on "American Idol" in 2009.
+                            </p>
+                            <br><br>
+                            Assista ao documentario completo:
+                            <br><br>
+                            <div class="modal-butons">
+                                <button role="button" class="botao" onclick="window.open(queen)">
+                                    <i class="fa-solid fa-2x fa-video"></i>
+                                    Assistir Agora
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button class="close-button" onclick="closeModal('dv14-modal') "> Fechar</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <!-- modal iacanga-->
+
+            <div id="dv15-modal" class="modal">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h1>O Barato de Iacanga</h1>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="img-modal"><img src="img/iacanga.jpg" alt=""></div>
+
+                        <div class="text">
+                            <p>A história do Festival de Águas Claras, o lendário festival ao ar livre de música
+                                brasileira que, fazendo sucesso entre a década de 1970 e de 1980, ficou conhecido por
+                                muitos como o Woodstock do Brasil. Unindo entrevistas com artistas e fundadores do
+                                evento
+                            </p>
+                            <br><br>
+                            Assista ao documentario completo:
+                            <br><br>
+                            <div class="modal-butons">
+                                <button role="button" class="botao" onclick="window.open(iacanga)">
+                                    <i class="fa-solid fa-2x fa-video"></i>
+                                    Assistir Agora
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button class="close-button" onclick="closeModal('dv15-modal') "> Fechar</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div id="Filmes">
+
+
+
+
+                <h3>
+                    FILMES
+                </h3>
+                <div class="carrosel-filmes">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img class="box-filme" src="img/bohemian.jpg" onclick="openModal('dv16-modal')" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="box-filme" src="img/metal lords.jpg" onclick="openModal('dv17-modal')" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="box-filme" src="img/tim maia.jpg" onclick="openModal('dv18-modal')" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="box-filme" src="img/blues.jpg" onclick="openModal('dv19-modal')" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="box-filme" src="img/la bamba.jpg" onclick="openModal('dv20-modal')" alt="">
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <!-- modal bohemian-->
+
+            <div id="dv16-modal" class="modal">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h1>Bohemian Rhapsody</h1>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="img-modal"><img src="img/bohemian.jpg" alt=""></div>
+
+                        <div class="text">
+                            <p>Freddie Mercury e seus companheiros Brian May, Roger Taylor e John Deacon mudam o mundo
+                                da música para sempre ao formar a banda Queen, durante a década de 1970. Porém, quando o
+                                estilo de vida extravagante de Mercury começa a sair do controle, a banda tem que
+                                enfrentar o desafio de conciliar a fama e o sucesso com suas vidas pessoais cada vez
+                                mais complicadas.
+                            </p>
+                            <br><br>
+                            Assista o filme completo:
+                            <br><br>
+                            <div class="modal-butons">
+                                <button role="button" class="botao" onclick="window.open(bohemian)">
+                                    <i class="fa-solid fa-2x fa-video"></i>
+                                    Assistir Agora
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button class="close-button" onclick="closeModal('dv16-modal') "> Fechar</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- modal metal lords-->
+
+            <div id="dv17-modal" class="modal">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h1>Metal Lords
+                        </h1>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="img-modal"><img src="img/metal lords.jpg" alt=""></div>
+
+                        <div class="text">
+                            <p>O plano dos excluídos Hunter e Kevin está claro: focar no heavy metal, ganhar a Batalha
+                                das Bandas e conquistar a admiração de todos.
+                            </p>
+                            <br><br>
+                            Assista o filme completo:
+                            <br><br>
+                            <div class="modal-butons">
+                                <button role="button" class="botao" onclick="window.open(metal)">
+                                    <i class="fa-solid fa-2x fa-video"></i>
+                                    Assistir Agora
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button class="close-button" onclick="closeModal('dv17-modal') "> Fechar</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- modal tim maia-->
+
+            <div id="dv18-modal" class="modal">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h1>Tim Maia</h1>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="img-modal"><img src="img/tim maia.jpg" alt=""></div>
+
+                        <div class="text">
+                            <p>Cinebiografia do cantor Tim Maia, baseada no livro “Vale Tudo – O Som e a Fúria de Tim
+                                Maia”. O filme percorre cinquenta anos na vida do artista, desde a sua infância no Rio
+                                de Janeiro até a sua morte, aos 55 anos de idade, incluindo a passagem pelos Estados
+                                Unidos, onde o cantor descobre novos estilos musicais e é preso por roubo e posse de
+                                drogas.
+                            </p>
+                            <br><br>
+                            Assista o filme completo:
+                            <br><br>
+                            <div class="modal-butons">
+                                <button role="button" class="botao" onclick="window.open(tim)">
+                                    <i class="fa-solid fa-2x fa-video"></i>
+                                    Assistir Agora
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button class="close-button" onclick="closeModal('dv18-modal') "> Fechar</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- modal blues-->
+
+            <div id="dv19-modal" class="modal">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h1>Metallica - A Vóz Suprema Do Blues</h1>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="img-modal"><img src="img/blues.jpg" alt=""></div>
+
+                        <div class="text">
+                            <p>Na Chicago de 1927, o clima fica tenso quando a pioneira Mãe do Blues se reúne com a
+                                banda em um estúdio de gravação. Adaptação da peça de August Wilson.
+                            </p>
+                            <br><br>
+                            Assista o filme completo:
+                            <br><br>
+                            <div class="modal-butons">
+                                <button role="button" class="botao" onclick="window.open(blues)">
+                                    <i class="fa-solid fa-2x fa-video"></i>
+                                    Assistir Agora
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button class="close-button" onclick="closeModal('dv19-modal') "> Fechar</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- modal la bamba-->
+
+            <div id="dv20-modal" class="modal">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h1>Ls Bamba</h1>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="img-modal"><img src="img/la bamba.jpg" alt=""></div>
+
+                        <div class="text">
+                            <p>Richard Stephen Valenzuela, mais conhecido como Ritchie Valens, marcou o final dos anos
+                                50 com uma carreira meteórica, recheada de sucessos e pontuada por uma das canções mais
+                                famosas de todos os tempos: "La Bamba".
+                            </p>
+                            <br><br>
+                            Assista o filme completo:
+                            <br><br>
+                            <div class="modal-butons">
+                                <button role="button" class="botao" onclick="window.open(bamba)">
+                                    <i class="fa-solid fa-2x fa-video"></i>
+                                    Assistir Agora
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button class="close-button" onclick="closeModal('dv20-modal') "> Fechar</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <!-- javascript-->
+            <script src="https://kit.fontawesome.com/9f5b0388f9.js" crossorigin="anonymous"></script>
+            <script src="js/owl/jquery.min.js"></script>
+            <script src="js/owl/owl.carousel.min.js"></script>
+            <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
